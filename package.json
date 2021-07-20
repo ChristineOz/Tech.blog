@@ -1,0 +1,39 @@
+{
+  "name": "tech.blog",
+  "version": "1.0.0",
+  "description": "(MVC) Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristineOz/Tech.blog.git"
+  },
+  "author": "Christine Osmak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristineOz/Tech.blog/issues"
+  },
+  "homepage": "https://github.com/ChristineOz/Tech.blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "bulma": "^0.9.3",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.22.4"
+  },
+  "devDependencies": {
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "jest": "^26.0.1"
+  }
+}
